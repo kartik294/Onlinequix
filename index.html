@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Quiz Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+  <h1 id="main-head">JavaScript Quiz Game</h1>
+  <div id="outer-box">
+    <div id="main-question">
+     
+<h3>
+          Q1. Which method is used to add a new element to the end of an array
+          in JavaScript?
+        </h3>
+        <div class="options">
+          <div><input type="radio" name="q1" value="a" /> push()</div>
+
+          <div><input type="radio" name="q1" value="b" /> pushToEnd()</div>
+
+          <div><input type="radio" name="q1" value="c" /> append()</div>
+
+          <div><input type="radio" name="q1" value="d" /> addToEnd()</div>
+        </div>
+
+        <h3>
+          Q2. Which function is used to execute a piece of code after a
+          specified time interval in JavaScript?
+        </h3>
+        <div class="options">
+          <div><input type="radio" name="q2" value="a" /> executeTimeout()</div>
+
+          <div><input type="radio" name="q2" value="b" /> setInterval()</div>
+
+          <div><input type="radio" name="q2" value="c" /> wait()</div>
+
+          <div><input type="radio" name="q2" value="d" /> setTimeout()</div>
+        </div>
+
+        <h3>
+          Q3. What is the result of typeof [] in JavaScript?
+        </h3>
+        <div class="options">
+          <div><input type="radio" name="q3" value="a" /> object</div>
+
+          <div><input type="radio" name="q3" value="b" />Array</div>
+
+          <div><input type="radio" name="q3" value="c" /> array</div>
+
+          <div><input type="radio" name="q3" value="d" /> undefined</div>
+        </div>
+
+        <h3>
+          Q4. Which event fires when a user clicks on an HTML element?
+        </h3>
+        <div class="options">
+          <div><input type="radio" name="q4" value="a" /> hover</div>
+
+          <div><input type="radio" name="q4" value="b" />mouseclick</div>
+
+          <div><input type="radio" name="q4" value="c" /> onhover</div>
+
+          <div><input type="radio" name="q4" value="d" /> click</div>
+        </div>
+
+        <h3>
+          Q5. What does JSON stand for in JavaScript?
+        </h3>
+        <div class="options">
+          <div>
+            <input type="radio" name="q5" value="a" /> JavaScript Object
+            Notation
+          </div>
+
+          <div>
+            <input type="radio" name="q5" value="b" />JavaScript Oriented Node
+          </div>
+
+          <div>
+            <input type="radio" name="q5" value="c" /> JavaScript Ordered
+            Notation
+          </div>
+
+          <div>
+            <input type="radio" name="q5" value="d" /> JavaScript Operand
+            Numbering
+          </div>
+
+          <h3>
+              Q6. What does CSS stand for?
+            </h3>
+            <div class="options">
+              <div><input type="radio" name="q6" value="a" /> Cascading Style Sheets</div>
+              <div><input type="radio" name="q6" value="b" /> Computer Style Sheets</div>
+              <div><input type="radio" name="q6" value="c" /> Creative Style Sheets</div>
+              <div><input type="radio" name="q6" value="d" /> Colorful Style Sheets</div>
+            </div>
+            
+    </div>
+    <div id="submit_btn">
+      <button onclick="submitQuiz()">Submit</button>
+    </div>
+    <div id="result" style="display: none;">
+      <p id="resultText"></p>
+      <p id="correctCount"></p>
+      <p id="incorrectCount"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
